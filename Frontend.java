@@ -1,4 +1,6 @@
-import jakarta.servlet.Servlet;
+
+
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -8,7 +10,7 @@ import java.io.IOException;
 
 public class Frontend extends HttpServlet {
 
-    private final String login = "";
+    private String login = "";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
